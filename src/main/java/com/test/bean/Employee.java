@@ -31,4 +31,9 @@ public class Employee {
 		//this.Name = "Imtiyaz Hussain";
 		this.Name = Name;
 	}
+	
+	public void testMethod()
+	{
+		
+	}
 }

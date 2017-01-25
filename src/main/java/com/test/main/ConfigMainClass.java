@@ -20,17 +20,19 @@ public class ConfigMainClass {
 		
 		if(employee != null)
 		{
-			System.out.println("Gotcha bean");
+			/*System.out.println("Gotcha bean");
 			System.out.println("------------------------------");
 			System.out.println(employee.getName() + "\n" + 
 					employee.getAddress().getState() + "\n" + 
-					employee.getAddress().getCity());
+					employee.getAddress().getCity());*/
 			
 			/*ExpressionParser parser = new SpelExpressionParser();
 			Expression expression = parser.parseExpression("addressBean.getState()");
 			String result =  (String)expression.getValue();
 			
 			System.out.println( " <<<<<<<<<<<<<<< " + result + " >>>>>>>>>");*/
+			System.out.println(employee.getName());
+			employee.testMethod();
 		}
 	}
 
